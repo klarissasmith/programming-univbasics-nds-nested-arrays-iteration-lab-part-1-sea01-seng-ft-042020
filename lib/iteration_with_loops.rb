@@ -7,10 +7,10 @@ while row_index < src.count do
   element_index = 0
   while element_index < src[row_index].count do
     p src[row_index][element_index].even?
-    element_index += 1
+    element_index += 1if src[row_index][element_index].even? == true do
+  new_array << src[row_index][element_index]
   end
   row_index += 1
 end
-if src[row_index][element_index].even? == true do
-  new_array << src[row_index][element_index]
+
 end
