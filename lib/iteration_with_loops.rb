@@ -11,5 +11,6 @@ while row_index < src.count do
   end
   row_index += 1
 end
-
+if src[row_index][element_index].even? == true do
+  new_array << src[row_index][element_index]
 end
